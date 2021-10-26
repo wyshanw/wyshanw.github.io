@@ -2,6 +2,7 @@
 title: "My awesome website"
 output: 
   html_document:
+    code_folding: hide
     toc: true
     toc_float: true
 ---
@@ -33,7 +34,9 @@ link to useful tools for data science
 
 Here's something for my probability homework
 
-![](images/unnamed.gif)
+<img src="images/unnamed.gif" style="width:75%">
+
+Or i can use this commend: ![](images/unnamed.gif)
 
 # link to page within the site
 
@@ -41,8 +44,15 @@ Here's something for my probability homework
 
 
 
+## here are some tabs {.tabset}
 
+### By Product
 
+(tab content)
+
+### By Region
+
+(tab content)
 
 
 
